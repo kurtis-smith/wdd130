@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@font-face {
+    font-family: clash display;
+    src: url(../fonts/ClashDisplay-Regular.otf);
+    }
+
+* {
+    
+}
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -5,6 +15,14 @@
 
 body {
     background-color: #FFFBFE;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -16,6 +34,7 @@ nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 
 }
 
@@ -36,6 +55,10 @@ nav a:hover {
 
 .home-title {
     color: black;
+    font-family: clash display, manrope, arial;
+    font-size: 2em;
+    margin-top: 10px;
+
 }
 
 h4 {
@@ -52,10 +75,19 @@ main section {
 
 }
 
+main section img {
+    box-sizing: border-box;
+    
+}
+
 .book, .join {
     color: white;
     background-color: #1e1e1e;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 
 }
 
@@ -71,20 +103,27 @@ main section {
 
 .msg {
     background-color: #7798ab;
+    line-height: 1.5em;
+    padding: 35px;
 
 }
 
 .msg h2 {
     color: black;
+    font-family: clash display, manrope, arial;
 }
 
 .msg p {
     color: black;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #7798ab;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 
 }
 
@@ -108,8 +147,31 @@ footer a:hover {
     
 }
 
+.footer .social img {
+    padding-top: 15px;
+
+}
+
 .logo {
     width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+
+}
+
+.card-img {
+    border: 10px solid black;
+
 }
 
 
