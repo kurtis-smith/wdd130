@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+        }
+
+        .top {
+            width: 100%;
+            max-height: 60vh;
+        }
+
+        .top-image {
+            width: 100%;
+            height: 100%;
+            display: inline;
+            object-fit: cover;
+            object-position: 0 70%;
+        }
+
+        .bottom {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(100,100,100);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+        }
+
+        .bottom .item {
+            width: 170px;
+            height: 170px;
+            border: 10px solid rgb(70,70,70);
+            border-radius: 50%;
+
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="top">
+        <img src="https://byui-wdd.github.io/wdd130/ice/w05_circles.jpg" class="top-image">
+    </div>
+    <div class="bottom">
+        <img class="item" src="https://byui-wdd.github.io/wdd130/ice/w05_ice_image_desk.jpg">
+        <img class="item" src="https://byui-wdd.github.io/wdd130/ice/w05_ice_image_graphic.png">
+        <img class="item" src="https://byui-wdd.github.io/wdd130/ice/w05_ice_image_person.jpg">
+    </div>
+    
+</body>
+</html>
