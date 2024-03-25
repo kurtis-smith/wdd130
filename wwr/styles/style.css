@@ -10,7 +10,7 @@
 
 #content {
     max-width: 1600px;
-    margin: 0 auto;
+    
 }
 
 body {
@@ -273,6 +273,90 @@ footer a:hover {
 Start of rivers.html css
 */
 
+.main-rivers {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.main-rivers {
+    height: min-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-rivers section {
+    width: calc(80% - 20px);
+    background-color: rgb(30,30,30);
+    margin-top: 30px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 1px 1px 5px gray;
+    
+
+}
+
+.main-rivers section {
+    width: calc((80%) - 20px);
+
+}
+
+.main-rivers section img {
+    width: calc(100% - 20px);
+    margin: 0px 10px;
+    border-radius: 13px;
+    margin-top: 10px;
+    display: block;
+}
+
+.main-rivers section img {
+    height: 100%;
+}
+
+.main-rivers section article {
+    background-color: white;
+    margin: 10px;
+    border-radius: 13px;
+    
+}
+
+.main-rivers section h2 {
+    font-size: 20pt;
+}
+
+.main-rivers section p {
+    font-size: 14pt;
+}
+
+@media screen and (max-width: 900px) {
+
+    * {
+        .main-rivers {
+            
+        }
+
+        .main-rivers section {
+            width: calc(95% - 20px);
+        }
+
+        .main-rivers section img {
+            width: calc(100% - 20px);
+        }
+
+
+
+    }
+
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -338,6 +422,20 @@ Start of rivers.html css
     footer {
         margin-top: 25px;
 
+    }
+
+    /* start of rivers css */
+
+    .main-rivers {
+            
+    }
+
+    .main-rivers section {
+        width: calc(95% - 20px);
+    }
+
+    .main-rivers section img {
+        width: calc(100% - 20px);
     }
 
     
