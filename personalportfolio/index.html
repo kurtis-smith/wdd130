@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+
+        @import url('https://fonts.googleapis.com/css?family=IM+Fell+French+Canon+SC|Lato');
+        @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+        @font-face {
+            font-family: clash display;
+            src: url(./fonts/ClashDisplay-Regular.otf);
+        }
+
+        * {
+            margin: 0px;
+            padding: 0px;
+
+        }
+
+        body {
+            width: 100vw;
+            overflow-x:hidden;
+        }
+
+        #content {
+            
+        }
+
+        header {
+            height: 50px;
+            width: 100%;
+            background-color: rgb(30,30,30);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: manrope;
+            font-size: 20pt;
+        }
+
+        .logo {
+
+            font-family: clash display;
+            width: 30%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+        }
+
+        .logo a {
+            text-decoration: none;
+            color: white;
+            height: 100%;
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            padding: 0px 20px;
+            font-size: 24pt;
+        }
+
+        
+
+        nav {
+            
+            height: 100%;
+            width: 70%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            
+        }
+
+        nav a {
+            
+            text-decoration: none;
+            color: white;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 20px;
+            font-size: 16pt;
+            transition: 0.15s all ease-in-out;
+            
+        }
+
+        nav a:hover {
+            background-color: rgb(60,60,60);
+            
+        }
+
+        .hero {
+            display: grid;
+            width: 100%;
+            
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            
+        }
+
+        .hero img {
+            display: block;
+            width: 100%;
+            grid-column: 1/9;
+            grid-row: 1/9;
+        }
+
+        .hero .message {
+            grid-column: 2/8;
+            grid-row: 2/8;
+            background-color: white;
+            opacity: 80%;
+            border-radius: 30px;
+            font-size: 26pt;
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            
+            
+        }
+
+        main {
+            background-color: rgb(30,30,30);
+            height: 100%;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        main section {
+            width: 80%;
+            padding: 20px 0px;
+            background-color: white;
+            margin-top: 100px;
+            border-radius: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        main section:last-of-type {
+            margin-bottom: 100px;
+        }
+
+        main section h3 {
+            font-family: manrope;
+            font-size: 16pt;
+
+        }
+
+        .images-bin {
+            width: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .images-bin img {
+            
+        }
+
+        footer {
+            width: 100%;
+            height: 80px;
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="content">
+
+        <header>
+
+            <div class="logo"><a href="index.html">Portfolio</a></div>
+            <nav>
+
+                <a href="index.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="experience.html">Experience</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+        </header>
+
+        <div class="hero">
+            <img src="images/jt25-1.jpg">
+            <p class="message">
+                “My name is Kurtis Smith, I have been in the utility construction industry since 2021. I pride myself in my skills as an HDD Locator. I’ve located with Subsite, UMag, and Digitrak locators. I have also worked as a driller operating a Ditchwitch JT25. I’ve installed up to 4” conduit, down to 1-way Mirco Duct conduit. I’m a very versatile worker and I have proved to be an asset in any project I’m put to work on“
+            </p>
+        </div>
+
+        <main>
+
+            <section>
+                <h3>Companies Worked For:</h3>
+                <div class="images-bin">
+                    <img src="./images/fybercom-logo.png">
+                    <img src="./images/bsu-logo.jpg">
+                    <img src="./images/dsi-logo.png">
+                </div>
+            </section>
+            <section>
+                <h3>Companies Done Jobs For:</h3>
+                <div class="images-bin">
+                    <img src="./images/fybercom-logo.png">
+                    <img src="./images/blackfoot-logo.png">
+                    
+                </div>
+                <div class="images-bin">
+                    <img src="./images/grizzly-logo.png">
+                    <img src="./images/spectrum-logo.jpg">
+                </div>
+            </section>
+
+        </main>
+
+        <footer>
+
+        </footer>
+
+    </div>
+
+    
+</body>
+</html>

@@ -6,93 +6,7 @@
     <title>Wild Water Expeditions | Rivers</title>
     <link rel="stylesheet" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&amp;display=swap" rel="stylesheet">
-    <style>
-
-        .main-rivers {
-            width: 100%;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            padding-bottom: 30px;
-        }
-
-        .main-rivers {
-            height: min-content;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-
-        .main-rivers section {
-            width: calc(80% - 20px);
-            background-color: rgb(30,30,30);
-            margin-top: 30px;
-            border-radius: 13px;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: center;
-            box-shadow: 1px 1px 5px gray;
-            
-
-        }
-
-        .main-rivers section {
-            width: calc((80%) - 20px);
-
-        }
-
-        .main-rivers section img {
-            width: calc(100% - 20px);
-            margin: 0px 10px;
-            border-radius: 13px;
-            margin-top: 10px;
-            display: block;
-        }
-
-        .main-rivers section img {
-            height: 100%;
-        }
-
-        .main-rivers section article {
-            background-color: white;
-            margin: 10px;
-            border-radius: 13px;
-            
-        }
-
-        .main-rivers section h2 {
-            font-size: 20pt;
-        }
-
-        .main-rivers section p {
-            font-size: 14pt;
-        }
-
-        @media screen and (max-width: 900px) {
-
-            * {
-                .main-rivers {
-                    
-                }
-
-                .main-rivers section {
-                    width: calc(95% - 20px);
-                }
-
-                .main-rivers section img {
-                    width: calc(100% - 20px);
-                }
-
-
-
-            }
-
-        }
-
-    </style>
+    
 </head>
 <body>
     <div id="content">
@@ -110,15 +24,11 @@
             </nav>
         </header>   
 
-        <hero>
-
-        </hero>
-
         <main class="main-rivers">
 
-            <section>
-                <img src="https://byui-wdd.github.io/wdd130/resources/images/rafting43_600.jpg">
-                <article>
+            <div class="river-card">
+                <img src="https://byui-wdd.github.io/wdd130/resources/images/rafting43_600.jpg" alt="Group of people floating on a raft in a river">
+                <article class="card-article">
                     <h2>
                         Main Fork of the Salmon River, Idaho
                     </h2>
@@ -130,11 +40,11 @@
                         Let's not forget the rapids! They range from class I-IV. The Salmon is one of the longest undammed rivers in the United States. As a free flowing river the water is higher, faster, and colder in the early summer and lower, slower, and warmer in the late summer. There are good rapids all summer...but families with children who like to swim tend to appreciate the late summer's slower, warmer water more.
                     </p>
                 </article>
-            </section>
+            </div>
 
-            <section>
-                <img src="https://byui-wdd.github.io/wdd130/resources/images/deso-boats.jpg">
-                <article>
+            <div class="river-card">
+                <img src="https://byui-wdd.github.io/wdd130/resources/images/deso-boats.jpg" alt="Group of people on individual kayaks in river">
+                <article class="card-article">
                     <h2>
                         Desolation and Gray Canyon, Utah
                     </h2>
@@ -146,11 +56,11 @@
                         Desolation Canyon has been recognized as a National Landmark.  This designation is based on the uniqueness and rich history that the canyon tells.
                     </p>
                 </article>
-            </section>
+            </div>
 
-            <section>
-                <img src="https://byui-wdd.github.io/wdd130/resources/images/river-narrow.jpg">
-                <article>
+            <div class="river-card">
+                <img src="https://byui-wdd.github.io/wdd130/resources/images/river-narrow.jpg" alt="Scenic view of a river at bottom of a canyon">
+                <article class="card-article">
                     <h2>
                         Grand Canyon, Arizona
                     </h2>
@@ -162,7 +72,7 @@
                         CLASS I - X: The Grand Canyon uses a unique river rating scale. The rapids in the Canyon are technically rated I - X ( 1 - 10) to accommodate such a wide variety of rapids and river variances. However, most people are familiar with the regular I - V river rating scale, so we often refer to both.
                     </p>
                 </article>
-            </section>
+            </div>
 
         </main>
 

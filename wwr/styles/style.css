@@ -290,7 +290,7 @@ Start of rivers.html css
     align-items: center;
 }
 
-.main-rivers section {
+.river-card {
     width: calc(80% - 20px);
     background-color: rgb(30,30,30);
     margin-top: 30px;
@@ -304,12 +304,12 @@ Start of rivers.html css
 
 }
 
-.main-rivers section {
+.river-card {
     width: calc((80%) - 20px);
 
 }
 
-.main-rivers section img {
+.river-card img {
     width: calc(100% - 20px);
     margin: 0px 10px;
     border-radius: 13px;
@@ -317,43 +317,42 @@ Start of rivers.html css
     display: block;
 }
 
-.main-rivers section img {
+.river-card img {
     height: 100%;
 }
 
-.main-rivers section article {
+.card-article {
     background-color: white;
     margin: 10px;
     border-radius: 13px;
+    text-align: center;
     
 }
 
-.main-rivers section h2 {
+.river-card h2 {
     font-size: 20pt;
 }
 
-.main-rivers section p {
+.river-card p {
     font-size: 14pt;
 }
 
 @media screen and (max-width: 900px) {
 
-    * {
-        .main-rivers {
-            
-        }
+    
+        
 
-        .main-rivers section {
+        .river-card {
             width: calc(95% - 20px);
         }
 
-        .main-rivers section img {
+        .river-card img {
             width: calc(100% - 20px);
         }
 
 
 
-    }
+    
 
 }
 
