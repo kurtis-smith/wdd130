@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience</title>
+    <link type="text/css" rel="stylesheet" href="styles/style.css"></head>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDLgDqvMiANJ423IC78s9y5J5FHqPhhpKo&callback=initMap"></script>
+    <style>
+
+        .experience-main {
+            background-color: white;
+        }
+
+        .map {
+            height: 400px;
+            width: calc(100% - 40px);
+            margin: 20px 0px;
+
+        }
+
+        .experience-main .card {
+            margin-top: 10px;
+            background-color: rgb(30,30,30);
+            width: calc(70% - 20px);
+            border-radius: 13px;
+            box-shadow: 1px 1px 5px gray;
+        }
+
+        .experience-main .card .img-bin {
+            width: calc(100% - 20px);
+            margin: 10px;
+            background-color: white;
+            border-radius: 13px;
+        }
+
+        .experience-main .bsu-card .img-bin {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .experience-main .fybercom-card img, .experience-main .dsi-card img {
+            object-fit: cover;
+            width: 100%;
+            display: block;
+            border-radius: 12px;
+            height: 300px;
+        }
+        
+        .experience-main .fybercom-card img{
+            object-fit: none;
+            height: 100px;
+            
+        }
+
+        .experience-main .dsi-card img {
+            object-fit: none;
+            height: 100px;
+        }
+
+        .experience-main .bsu-card img {
+            object-fit: none;
+            height: 100%;
+        }
+
+        .experience-main .card article {
+            background-color: white;
+            margin: 10px;
+            border-radius: 13px;
+            
+        }
+
+        .experience-main .card article h3 {
+            font-family: manrope;
+            text-align: center;
+        }
+
+        .experience-main .card article ul {
+            font-family: manrope;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: auto;
+
+        }
+
+        .experience-main .card article p {
+            font-family: manrope;
+            text-align: center;
+            margin: 0px 10px;
+        }
+
+        .experience-main .card article li {
+            padding: 10px;
+            text-align: center;
+        }
+
+        .experience-main .card:last-of-type {
+            margin-bottom: 100px;
+        }
+
+    </style>
+<body>
+
+    <div id="content">
+
+        <header>
+
+            <div class="logo"><a href="index.html">Portfolio</a></div>
+            <nav>
+
+                <a href="index.html">Home</a>
+                <a href="skills.html">Skills</a>
+                <a href="experience.html">Experience</a>
+                <a href="contact.html">Contact</a>
+
+            </nav>
+
+        </header>
+
+        <main class="experience-main">
+
+            <div class="map"></div>
+
+            <div class="card fybercom-card ">
+                <div class="img-bin">
+                    <img src="./images/fybercom-logo.png" alt="Fybercom-logo">
+                </div>
+                <article>
+                    <h3>Fybercom</h3>
+                    <p>Fybercom is an Internet Service Provider for south east Idaho. I started at Fybercom in 2021 as a general laborer. I worked my way up to an HDD drill locator, using a UMag 8 and Subsite TK Recon 1, using drill-to locating styles. Then I was promoted to an HDD drill operator, operating a Ditch Witch JT25 and Ditch Witch JT30. I did various tasks while at Fybercom but all work was done to add fiber optic infrastructure to Fybercom’s network. </p>
+                    <br>
+                    <h3>Tasks:</h3>
+                    <ul>
+                        <li>General Labor</li>
+                        <li>Potholing</li>
+                        <li>Restoration</li>
+                        <li>Drop Line Installation</li>
+                        <li>Equipment Operation</li>
+                        <li>Utility Locating</li>
+                        <li>HDD Drill Locating</li>
+                        <li>HDD Drill Operation</li>
+                        <li>Ground Mole Operation</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="card dsi-card">
+                <div class="img-bin">
+                    <img src="./images/dsi-logo.png" alt="DSI logo">
+                </div>
+                <article>
+                    <h3>Diversified Solutions Incorporated</h3>
+                    <p>Diversified Solutions Incorporated is a utility construction sub-contractor. I was hired as an HDD drill locator to locate with a Subsite TK but spent a large amount of time doing drop line installations and working operating a Ditch Witch RT120 Quad Track plow. All work was done for Blackfoot Communications, adding to their coax and fiber optic network in primarily Island Park.</p>
+                    <br>
+                    <h3>Tasks:</h3>
+                    <ul>
+                        <li>General Labor</li>
+                        <li>Restoration</li>
+                        <li>Drop Line Technician</li>
+                        <li>Plow Operation</li>
+                        <li>HDD Drill Locating</li>
+                    </ul>
+                </article>
+            </div>
+
+            <div class="card bsu-card">
+                <div class="img-bin">
+                    <img src="./images/bsu-logo.jpg" alt="Big Sky Utilities logo">
+                </div>
+                <article>
+                    <h3>Big Sky Utilities</h3>
+                    <p>Big Sky Utilities is a travelling directional drilling subcontractor based in Western Montana. I was hired as a general laborer, but later got promoted to an HDD drill locator. I located using Digitrak locators using drill-to and traditional locating styles. We travelled for work and worked for multiple different ISP’s. We would work anywhere from Whitefish, Montana to Butte, Montana. We did bore shots for Grizzly Broadband, Charter Spectrum, and various miscellaneous shots.</p>
+                    <br>
+                    <h3>Tasks:</h3>
+                    <ul>
+                        <li>General Labor</li>
+                        <li>Potholing</li>
+                        <li>Restoration</li>
+                        <li>HDD Drill Locating</li>
+                    </ul>
+                </article>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>
+                Kurtis Smith - 2024
+            </p>
+            <p>
+                <a href="site-plan.html" target="_blank">Site Plan</a>
+            </p>
+            <p>
+                <a href="contact.html">Contact Me</a>
+            </p>
+        </footer>
+
+    </div>
+
+<script>
+
+    let markers = [
+        [48.19121960620005, -114.3208285135828, "Kalispell, MT"],
+        [46.002992333676, -112.53532771765508, "Butte, MT"],
+        [46.24696896907442, -114.15521370668364, "Hamilton, MT"],
+        [46.31406711050697, -114.1136352590633, "Corvallis, MT"],
+        [46.588285396340254, -112.03869662318955, "Helena, MT"],
+        [46.87186226158876, -113.99550774954464, "Missoula, MT"],
+        [48.063645456982144, -114.07390470751113, "Bigfork, MT"],
+        [48.41122511034604, -114.33813416298777, "Whitefish, MT"],
+        [43.96631421060961, -111.68284846944785, "St Anthony, ID"],
+        [44.42241909044664, -111.36707512250648, "Island Park, ID"],
+        [43.38101956936059, -112.12347177592417, "Shelley, ID"],
+        [43.4928285836783, -112.04023018194928, "Idaho Falls, ID"],
+        [43.52626428853203, -111.93274106025315, "Iona, ID"],
+        [43.59645406960785, -111.963855881794, "Ucon, ID"],
+        [43.67242690700301, -111.91526633068355, "Rigby, ID"],
+        [43.63187682136415, -111.77394026144296, "Ririe, ID"],
+        [43.823177155199204, -111.7928177569113, "Rexburg, ID"],
+    ]
+
+    let map;
+
+    function initMap() {
+        
+        const center = { lat: 46.03913009538486, lng: -111.19641557336641};
+        
+        map = new google.maps.Map(document.querySelector(".map"), {
+            zoom: 5,
+            tilt: 0,
+            center: center,
+            draggableCursor: "crosshair",
+            gestureHandling: "greedy",
+            mapTypeId: "roadmap",
+            styles: [
+                {
+                    featureType: "poi.business",
+                    stylers: [{visibility: "off" }],
+                    
+                },
+            ],
+            
+        });
+
+        for(let i = 0; i < markers.length; i++) {
+            
+            let latitude = markers[i][0];
+            let longitude = markers[i][1];
+            let label = markers[i][2];
+
+            let latLng = new google.maps.LatLng(latitude, longitude);
+
+            let marker = new google.maps.Marker({
+                position: latLng,
+                title: label,
+                map: map,
+            })
+
+        }  
+        
+    }
+
+    window.initMap = initMap;
+
+    
+
+
+
+
+
+</script>
+</body>
+</html>
