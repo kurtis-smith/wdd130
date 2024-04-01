@@ -210,6 +210,8 @@ footer p, footer a{
     background-color: rgb(160,160,160);
 }
 
+
+
 @media screen and (max-width: 900px) {
 
     header {
@@ -498,6 +500,10 @@ footer p, footer a{
     margin-bottom: 100px;
 }
 
+.message-card {
+    margin-bottom: 100px;
+}
+
 .message-h3 {
     color: white;
     font-family: manrope;
@@ -584,4 +590,41 @@ footer p, footer a{
     margin-top: 50px;
     border-radius: 13px;
     width: calc(70% - 20px);
+}
+
+.upBtn {
+    width: 60px;
+    height: 60px;
+    background-color: #595f39;
+    z-index: 5;
+    position: fixed;
+    right: 10px;
+    bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 30pt;
+    color: white;
+    opacity: 0%;
+    transition: all ease-in-out 0.3s;
+
+}
+
+.upBtn div {
+    font-size: 26pt;
+}
+
+.upBtn:hover {
+    cursor: default;
+}
+
+.btn--active {
+    opacity: 100%;
+    
+    
+}
+
+.btn--active:hover {
+    cursor: pointer;
 }
