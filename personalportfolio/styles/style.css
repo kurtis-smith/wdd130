@@ -31,6 +31,8 @@ header {
     align-items: center;
     font-family: manrope;
     font-size: 20pt;
+    min-height: 50px;
+    background-color: #595f39;
 }
 
 .logo {
@@ -66,6 +68,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     
 }
 
@@ -117,7 +120,7 @@ nav a:hover {
     align-items: center;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+    font-size: 3vw;
     
 }
 
@@ -128,6 +131,7 @@ main {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
 }
 
 .home-main section {
@@ -204,4 +208,380 @@ footer p, footer a{
 
 .questions-card a:hover {
     background-color: rgb(160,160,160);
+}
+
+@media screen and (max-width: 900px) {
+
+    header {
+        min-height: 70px;
+    }
+
+    nav {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .hero .message {
+        font-size: 3.1vw;
+        padding: 15px;
+    }
+
+
+
+
+
+}
+
+/*
+    
+    End of index css
+
+    Beginning of skills css
+
+*/
+
+.skills-main {
+    background-color: white;
+    width: 100%;
+    
+
+
+}
+
+.skills-main .card {
+    margin-top: 10px;
+    background-color: rgb(30,30,30);
+    width: calc(70% - 20px);
+    border-radius: 13px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.skills-main .card img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.skills-main .general-card img {
+    object-position: 25% 20%;
+}
+
+.skills-main .locator-card img {
+    object-position: 0% 40%;
+}
+
+.skills-main .card article {
+    background-color: white;
+    margin: 10px;
+    border-radius: 13px;
+    
+}
+
+.skills-main .card article h3 {
+    font-family: manrope;
+    text-align: center;
+}
+
+.skills-main .card article ul {
+    font-family: manrope;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+}
+
+.skills-main .card article li {
+    padding: 10px;
+    text-align: center;
+}
+
+.skills-main .card:last-of-type {
+    margin-bottom: 100px;
+}
+
+/*
+
+    End of skills css
+
+    Beginning of experience css
+
+*/
+
+.experience-main {
+    background-color: white;
+}
+
+.map {
+    height: 400px;
+    width: calc(100% - 40px);
+    margin: 20px 0px;
+
+}
+
+.experience-main .card {
+    margin-top: 10px;
+    background-color: rgb(30,30,30);
+    width: calc(70% - 20px);
+    border-radius: 13px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.experience-main .card .img-bin {
+    width: calc(100% - 20px);
+    margin: 10px;
+    background-color: white;
+    border-radius: 13px;
+}
+
+.experience-main .bsu-card .img-bin {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.experience-main .fybercom-card img, .experience-main .dsi-card img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.experience-main .fybercom-card img{
+    object-fit: none;
+    height: 100px;
+    
+}
+
+.experience-main .dsi-card img {
+    object-fit: none;
+    height: 100px;
+}
+
+.experience-main .bsu-card img {
+    object-fit: none;
+    height: 100%;
+}
+
+.experience-main .card article {
+    background-color: white;
+    margin: 10px;
+    border-radius: 13px;
+    
+}
+
+.experience-main .card article h3 {
+    font-family: manrope;
+    text-align: center;
+}
+
+.experience-main .card article ul {
+    font-family: manrope;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+}
+
+.experience-main .card article p {
+    font-family: manrope;
+    text-align: center;
+    margin: 0px 10px;
+}
+
+.experience-main .card article li {
+    padding: 10px;
+    text-align: center;
+}
+
+.experience-main .card:last-of-type {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 900px) {
+
+    
+    .experience-main .bsu-card img {
+        
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 13px;
+    }
+
+    .experience-main .bsu-card .img-bin {
+        width: calc(100% - 20px);
+        margin: 10px;
+        background-color: white;
+        border-radius: 13px;
+    }
+
+
+
+
+
+}
+
+/*
+
+    End of experience css
+
+    Beginning of contact css
+
+*/
+
+.contact-main {
+    background-color: white;
+    width: 100%;
+    
+
+
+}
+
+.contact-main .card {
+    margin-top: 50px;
+    background-color: rgb(30,30,30);
+    width: calc(70% - 20px);
+    border-radius: 13px;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.contact-main .card img {
+    object-fit: cover;
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    height: 300px;
+}
+
+.contact-main .general-card img {
+    object-position: 25% 20%;
+}
+
+.contact-main .locator-card img {
+    object-position: 0% 40%;
+}
+
+.contact-main .card article {
+    background-color: white;
+    margin: 10px;
+    border-radius: 13px;
+    
+}
+
+.contact-main .card article h3 {
+    font-family: manrope;
+    text-align: center;
+}
+
+.contact-main .card article ul {
+    font-family: manrope;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+
+}
+
+.contact-main .card article li {
+    padding: 10px;
+    text-align: center;
+}
+
+.contact-main .card:last-of-type {
+    margin-bottom: 100px;
+}
+
+.message-h3 {
+    color: white;
+    font-family: manrope;
+    font-weight: normal;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 16pt;
+}
+
+.message-card form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+
+}
+
+.message-card form textarea {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+    margin-top: 5px;
+    resize: none;
+    border: none;
+    border-radius: 13px;
+    font-family: manrope;
+    padding: 5px;
+    font-size: 14pt;
+
+    
+}
+
+.message-card form textarea:focus {
+    outline: none;
+}
+
+.message-card form input {
+    display: block;
+    width: calc(100% - 40px);
+    border: none;
+    font-size: 14pt;
+    border-radius: 13px;
+    padding: 5px;
+    font-family: manrope;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.message-card form input:focus {
+    outline: none;
+}
+
+.message-card form button {
+    margin-bottom: 20px;
+    width: 70%;
+    border: 1px solid black;
+    border-radius: 13px;
+    padding: 10px 0px;
+    font-family: manrope;
+    font-size: 12pt;
+    transition: 0.15s all ease-in-out;
+}
+
+.message-card form button:hover {
+    cursor: pointer;
+    background-color: rgb(180,180,180);
+}
+
+.message-card form h3 {
+    width: 100%;
+    margin-left: 40px;
+    color: white;
+    font-family: manrope;
+    font-weight: normal;
+
+}
+
+.contact-img {
+    margin-top: 50px;
+    border-radius: 13px;
+    width: calc(70% - 20px);
 }
